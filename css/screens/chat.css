@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #9e35ff;
+  background-color: var(--bts);
   height: 500vh;
 }
 
@@ -15,7 +15,7 @@
 }
 
 #chat-screen .alt-header {
-  background-color: #9e35ff;
+  background-color: var(--bts);
   top: 10px;
   z-index: 1;
 }
