@@ -22,7 +22,7 @@
 }
 
 #login-form input {
-  padding: 15px 0;
+  padding: 15px 10px;
   border: none;
   font-size: 18px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);

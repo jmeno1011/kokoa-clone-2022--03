@@ -4,15 +4,46 @@
 }
 
 .icon-row__icon {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70px;
 }
 
 .icon-row__icon i {
   font-size: 35px;
 }
 
+.icon-row__icon svg {
+  width: 35px;
+  height: 35px;
+}
+
 .icon-row__icon span {
   margin-top: 18px;
+  font-size: 15px;
+}
+.icon-row__icon #red-dot-top {
+  position: absolute;
+  top: -25px;
+  right: 10px;
+}
+#red-dot-nav {
+  width: 4px;
+  height: 4px;
+  display: block;
+  background-color: red;
+  border-radius: 50%;
+  float: right;
+}
+
+#red-dot-top {
+  width: 4px;
+  height: 4px;
+  display: block;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
 }
